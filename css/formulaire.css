@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 201, 156);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.formulaire {
+  border: 2px dotted rgba(0, 0, 0, 0.452);
+}
+
+.formulaire div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.formulaire fieldset {
+  margin: 30px 0;
+  border: 1px dotted rgba(0, 0, 0, 0.452);
+}

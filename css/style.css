@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section,
+header,
+footer {
+  min-height: 100vh;
+}
+
+.centre {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.376);
+  padding: 30px 25px;
+  border: thick double #00b7ff;
+}
+/* ////////////////////////////////////////////// */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+body > div:nth-of-type(1) {
+  background-color: rgb(255, 255, 255);
+}
+
+body > div:nth-of-type(2) {
+  background-color: rgb(255, 116, 116);
+}
+
+body > div:nth-of-type(3) {
+  background-color: rgb(255, 204, 116);
+}
+
+body > div:nth-of-type(4) {
+  background-color: rgb(241, 255, 116);
+}
+
+body > div:nth-of-type(5) {
+  background-color: rgb(155, 116, 255);
+}
+
+body > div:nth-of-type(6) {
+  background-color: rgb(116, 255, 148);
+}
+
+body > div:nth-of-type(7) {
+  background-color: rgb(116, 179, 255);
+}
+
+/* ////////////////////////////////////////////// */
+
+.hero {
+  background-image: url("../images/Accueil.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.hero__barresup {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  padding: 5px 10px;
+  background-color: rgba(171, 171, 171, 0.598);
+  gap: 380px;
+}
+
+.hero__titre {
+  color: rgb(199, 113, 0);
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.hero__logo {
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero > .centre {
+  background-color: rgba(249, 249, 255, 0.836);
+}
+
+.hero__titre__accueil {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero__haut{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+.page__inscription {
+  background-image: url("../images/inscription.png");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.inscription > .centre {
+  background-color: rgba(249, 249, 255, 0.655);
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+ul{
+list-style: none;
+padding: 0;
+}
+
+li{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 2rem;
+
+}
